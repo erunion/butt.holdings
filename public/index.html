@@ -16,12 +16,12 @@
 </head>
 
 <body>
-  <img src="hold-onto-your-butts.gif" alt="Hold onto your butts!" />
+  <img src="hold-onto-your-butts.gif" alt="Hold onto your butts!" onclick='document.getElementById("butts-audio").play();'/>
 
   <img src="fionna-butts.gif" style="margin-top:5000px" alt="Not that I'm thinking of butts." />
 
   <div style="position: fixed; bottom: 5px; left: 10px; font-family: Arial, sans-serif; text-transform: uppercase;">
-    <audio controls>
+    <audio id="butts-audio" controls>
       <source src="butts.mp3" type="audio/mpeg">
     </audio>
   </div>
